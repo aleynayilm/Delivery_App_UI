@@ -1,5 +1,5 @@
-import 'package:delivery_app_ui/product/language/color/color_items.dart';
-import 'package:delivery_app_ui/product/language/language_items.dart';
+import 'package:delivery_app_ui/core/constants/color_items.dart';
+import 'package:delivery_app_ui/core/constants/strings_items.dart';
 import 'package:flutter/material.dart';
 
 class CategoriesScreen extends StatefulWidget {

@@ -1,5 +1,5 @@
-import 'package:delivery_app_ui/product/language/color/color_items.dart';
-import 'package:delivery_app_ui/product/language/language_items.dart';
+import 'package:delivery_app_ui/core/constants/color_items.dart';
+import 'package:delivery_app_ui/core/constants/strings_items.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -70,7 +70,7 @@ Future _displayBottomSheet(BuildContext context) {
                   )),
             ),
           ),
-          Container(
+          SizedBox(
             width: _Size().container3Width,
             height: _Size().container3Height,
             child: Center(

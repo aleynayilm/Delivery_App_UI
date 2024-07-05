@@ -31,4 +31,12 @@ class VegetablesLanguageItems {
   String chipsUnselected2 = 'Onions and garlic (8)';
   String chipsUnselected3 = 'Peppers (7)';
   String chipsUnselected4 = 'Potatoes and carrots (4)';
+  String itemRowViewPrimaryText = 'Boston Lettuce';
+  String itemRowViewNumber1 = '1.10';
+  String itemRowViewSecondaryText = '  £ / piece';
+  String itemRowViewPrimaryText2 = 'Purple Cauliflower';
+  String itemRowViewNumber2 = '1.85';
+  String itemRowViewSecondaryText2 = '  £ / kg';
+  String itemRowViewPrimaryText3 = 'Savoy Cabbage';
+  String itemRowViewNumber3 = '1.45';
 }

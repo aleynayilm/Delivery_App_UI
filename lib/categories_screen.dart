@@ -1,5 +1,7 @@
 import 'package:delivery_app_ui/core/constants/color_items.dart';
 import 'package:delivery_app_ui/core/constants/strings_items.dart';
+import 'package:delivery_app_ui/splash_screen.dart';
+import 'package:delivery_app_ui/vegetables_screen.dart';
 import 'package:flutter/material.dart';
 
 class CategoriesScreen extends StatefulWidget {
@@ -17,11 +19,11 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
         backgroundColor: Colorss.appBarBackgroundColor,
         leading: IconButton(
           onPressed: () {
-            // Navigator.pop(
-            //     context,
-            //     MaterialPageRoute(
-            //       builder: (context) => const SplashScreen(),
-            //     ));
+            Navigator.pop(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SplashScreen(),
+                ));
           },
           icon: const Icon(Icons.chevron_left_outlined),
         ),
@@ -69,7 +71,14 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       InkWell(
-                          onTap: () {},
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const VegetablesScreen(),
+                                ));
+                          },
                           child: CardComponent(
                             image: Image.asset(
                               'assets/card1.png',

@@ -21,4 +21,6 @@ class Colorss {
   static Color chipsSecondaryText = const Color(0XFF9586A8);
   static Color chipsSelectedField = const Color(0xFFE2CBFF);
   static Color chipsUnselectedField = const Color(0xFFFFFFFF);
+  static Color itemScreenContainer = const Color(0xFFF6F5F5);
+  static Color text3Color = const Color(0xFF06BE77);
 }

@@ -40,3 +40,14 @@ class VegetablesLanguageItems {
   String itemRowViewPrimaryText3 = 'Savoy Cabbage';
   String itemRowViewNumber3 = '1.45';
 }
+
+class ItemScreenLanguageItems {
+  String title1 = 'Boston Lettuce';
+  String text1 = '1.10';
+  String text2 = '  £ / piece';
+  String text3 = '~ 150 gr / piece';
+  String title2 = 'Spain';
+  String secondaryText =
+      'Lettuce is an annual plant of the daisy family, Asteraceae. It is most often grown as a leaf vegetable, but sometimes for its stem and seeds. Lettuce is most often used for salads, although it is also seen in other kinds of food, such as soups, sandwiches and wraps; it can also be grilled.';
+  String buttonText = '   ADD TO CART';
+}

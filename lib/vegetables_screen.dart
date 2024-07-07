@@ -1,5 +1,7 @@
+import 'package:delivery_app_ui/categories_screen.dart';
 import 'package:delivery_app_ui/core/constants/color_items.dart';
 import 'package:delivery_app_ui/core/constants/strings_items.dart';
+import 'package:delivery_app_ui/item_screen.dart';
 import 'package:flutter/material.dart';
 
 class VegetablesScreen extends StatefulWidget {
@@ -15,21 +17,14 @@ class _VegetablesScreenState extends State<VegetablesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        // flexibleSpace: Align(
-        //   alignment: Alignment.topRight,
-        //   child: SizedBox(
-        //       width: _Size().vector,
-        //       height: _Size().vector,
-        //       child: Image.asset('assets/vector.png')),
-        // ),
         backgroundColor: Colorss.appBarBackgroundColor,
         leading: IconButton(
           onPressed: () {
-            // Navigator.pop(
-            //     context,
-            //     MaterialPageRoute(
-            //       builder: (context) => const SplashScreen(),
-            //     ));
+            Navigator.pop(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const CategoriesScreen(),
+                ));
           },
           icon: const Icon(Icons.chevron_left_outlined),
         ),
@@ -240,7 +235,14 @@ class ItemRowView extends StatelessWidget {
                                     ),
                                     label: const Text('')),
                                 ElevatedButton.icon(
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      // Navigator.push(
+                                      //     context,
+                                      //     MaterialPageRoute(
+                                      //       builder: (context) =>
+                                      //           const ItemScreen(),
+                                      //     ));
+                                    },
                                     style: ElevatedButton.styleFrom(
                                         primary: Colorss.primaryButton),
                                     icon: const Icon(

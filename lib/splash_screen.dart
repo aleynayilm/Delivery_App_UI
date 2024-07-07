@@ -1,3 +1,4 @@
+import 'package:delivery_app_ui/categories_screen.dart';
 import 'package:delivery_app_ui/core/constants/color_items.dart';
 import 'package:delivery_app_ui/core/constants/strings_items.dart';
 import 'package:flutter/material.dart';
@@ -101,7 +102,11 @@ Future _displayBottomSheet(BuildContext context) {
           ),
           ElevatedButton(
               onPressed: () {
-                //Navigator.push(context, MaterialPageRoute(builder: (context) => ,));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const CategoriesScreen(),
+                    ));
               },
               style: ElevatedButton.styleFrom(
                 primary: Colorss.primaryButton,

@@ -1,5 +1,5 @@
+import 'package:delivery_app_ui/item_screen.dart';
 import 'package:delivery_app_ui/theme/light_theme.dart';
-import 'package:delivery_app_ui/vegetables_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: LightTheme().theme,
       debugShowCheckedModeBanner: false,
-      home: const VegetablesScreen(),
+      home: const ItemScreen(),
     );
   }
 }

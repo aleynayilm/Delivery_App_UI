@@ -1,7 +1,7 @@
 # Delivery App UI
 
 
-## App Image
+## App Images
 ### Splash Screen
 ![Ekran görüntüsü 2024-07-09 114527](https://github.com/aleynayilm/Delivery_App_UI/assets/122885535/eecd6dd5-5480-4c09-91f6-d42cc2b45ee0)
 

@@ -1,16 +1,20 @@
-# delivery_app_ui
+# Delivery App UI
 
-A new Flutter project.
 
-## Getting Started
+## App Image
+### Splash Screen
+![Ekran görüntüsü 2024-07-09 114527](https://github.com/aleynayilm/Delivery_App_UI/assets/122885535/eecd6dd5-5480-4c09-91f6-d42cc2b45ee0)
 
-This project is a starting point for a Flutter application.
+### Categories Screen
+![Ekran görüntüsü 2024-07-09 114607](https://github.com/aleynayilm/Delivery_App_UI/assets/122885535/00c7b2c2-2f3b-4341-8156-3f0201ba11d3)
 
-A few resources to get you started if this is your first Flutter project:
+### Vegetables Screen
+![Ekran görüntüsü 2024-07-09 114631](https://github.com/aleynayilm/Delivery_App_UI/assets/122885535/d175cbc8-da8a-4c07-9a98-73a0b474c4f8)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Item Screen
+![Ekran görüntüsü 2024-07-09 114648](https://github.com/aleynayilm/Delivery_App_UI/assets/122885535/f6535c8d-a34d-42af-add0-7e05eeef7afe)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+
